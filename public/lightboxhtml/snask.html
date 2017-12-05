@@ -1,0 +1,71 @@
+
+<div class="modalBody">
+
+	<div class="sliderContainer">
+		<div id="lightboxSlider">
+		     <div class="slides" u="slides">
+		        <div><img u="image" src="images/isotope/invitados/snasklightbox01.jpg" /></div>
+		        <div><img u="image" src="images/isotope/invitados/snasklightbox02.jpg" /></div>
+		        <div><img u="image" src="images/isotope/invitados/snasklightbox03.jpg" /></div>
+		    </div>
+		</div>
+	</div>
+
+	<div class="textContainer">
+		<div class="titleText">
+			<p>
+			Snask</br>
+			DiseÃ±o grÃ¡fico y direcciÃ³n de arte </br>
+			Suecia
+		</p>
+		</div>
+
+		<div class="descText">
+			<p>
+				Un inusual estudio ubicado en Estocolmo, reconocido internacionalmente por crear ideas no convencionales en el diseÃ±o, branding y filmografÃ­a.
+<br /><br />
+Su trabajo va desde un objeto digital hasta crear una compaÃ±Ã­a disquera, el branding de una cerveza, re-brandear una isla, y dar charlas por todo el mundo. AdemÃ¡s organizan su propio festival y ya cuentan con un libro. Entre sus clientes estÃ¡n H&M, Samsung, Microsoft y Target, entre muchos otros.
+<br /><br />
+Revelarse a lo conservador y a lo aburrido es parte de su filosofÃ­a, por ende siempre el buen humor juega una parte importante en el sello de su trabajo.
+			</p>
+		</div>
+
+		<div class="linkText">
+			<a href="http://snask.com/" target="_blank">snask.com</a>
+		</div>
+
+
+	</div>
+
+	<div class="closeBtn">
+		<img src="images/lightbox/close.svg"/></div>
+	</div>
+
+</div>
+
+
+<script>
+$(function() {
+
+		var options = {
+	        $DragOrientation: 3,
+	        $AutoPlay : true,
+	        $FillMode : 0,
+	        $PauseOnHover : false,
+	        $Idle: 3000,
+	        $ArrowNavigatorOptions: {
+	            $Class: $JssorArrowNavigator$,
+	            $ChanceToShow: 2,
+	            $AutoCenter: 0,
+	            $Steps: 1
+	        }
+	    };
+	    var jssor_slider1 = new $JssorSlider$("lightboxSlider", options);
+
+	    $(".closeBtn").click(function(){
+		    $.magnificPopup.close();
+	    });
+
+});
+
+  </script>

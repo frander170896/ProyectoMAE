@@ -1,0 +1,73 @@
+.ajax-popup-link{
+    text-decoration: none;
+    color: white;
+}
+
+.modalBody{
+	margin: 0 auto;
+	width: 897px;
+	height: 730px;
+	background-color: white;
+	position : relative;
+	padding: 50px 50px 50px 50px;
+    font-size: 14px;
+}
+
+.closeBtn {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 47px;
+    cursor: pointer;
+}
+
+.mfp-close{
+	display: none !important;
+}
+
+#lightboxSlider{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    height:500px;
+}
+
+#lightboxSlider .slides{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 900px;
+    height:500px;
+    overflow: hidden
+}
+
+.textContainer{
+	margin-top: 5px;
+}
+
+.textContainer .titleText, .textContainer .descText, .textContainer .linkText{
+	display: inline-table;
+}
+
+.titleText {
+    width: 200px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.descText {
+    width: 460px;
+    font-size: 11px;
+}
+
+.linkText {
+    width: 228px;
+	text-align: right;
+	font-weight: 700;
+}
+
+.linkText a{
+    color: black !important;
+}

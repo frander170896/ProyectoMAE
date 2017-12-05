@@ -1,0 +1,928 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 0px 40px;
+    margin: 0px auto;
+    width: 1200px;
+    position: relative;
+}
+
+.header{
+    height: 100px;
+    min-height: 100px;
+    position: relative;
+    padding: 0px 50px;
+}
+
+.header .menu{
+    position: relative;
+    background-color: #000000;
+    width: 160px; height: 200px;
+    padding: 20px;
+    position: absolute;
+    left: 50px;
+    z-index: 9;
+}
+
+.header .menu a{
+    text-decoration: none;
+	color: white;
+	display: table;
+	margin-bottom: 10px;
+    font-size: 13.5px;
+}
+
+.header .menu a.active{
+    margin: 0;
+    color: #FF0000;
+    position: absolute;
+    bottom: 20px;
+}
+
+.header .logo{
+    /*background-color: #FF0000;*/
+    width: 100px; height: 100px;
+    position: absolute;
+    left: 250px;
+}
+
+.header .location{
+    background-color: #000000;
+    width: 350px; height: 50px;
+    position: absolute;
+    right: 200px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.header .social{
+    background-color: #fdf40b;
+    width: 215px; height: 50px;
+    position: absolute;
+    right: 50px;
+    top:50px;
+}
+
+.header .social a{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 50px; height: 50px;
+    display: inline-block;
+}
+
+.header .social .facebook{
+    background-image: url(../images/svg/facebook.png);
+}
+.header .social .facebook:hover{
+     background-image: url(../images/svg/facebookroll.svg);
+}
+
+.header .social .twitter{
+    background-image: url(../images/svg/twitter.png);
+}
+.header .social .twitter:hover{
+     background-image: url(../images/svg/twitterroll.svg);
+}
+
+.header .social .instagram{
+    background-image: url(../images/svg/instagram.png);
+}
+.header .social .instagram:hover{
+     background-image: url(../images/svg/instagramroll.svg);
+}
+
+.header .social .vimeo{
+    background-image: url(../images/svg/vimeo.png);
+}
+.header .social .vimeo:hover{
+     background-image: url(../images/svg/vimeoroll.svg);
+}
+
+#slider{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1200px;
+    height:700px;
+}
+
+#slider .slides{
+    cursor: move;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden
+}
+
+#slider .arrowleft{
+    position: absolute;
+    left: -25px;
+    top: 200px;
+    background-color: #FF0000;
+    width: 50px; height: 50px;
+    background-image: url(../images/svg/_.svg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    cursor: pointer;
+}
+
+#slider .arrowright{
+    position: absolute;
+    right: -25px;
+    top: 400px;
+    background-color: #FF0000;
+    width: 50px; height: 50px;
+    background-image: url(../images/svg/_1.svg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    cursor: pointer;
+}
+
+.grid .w800h200{
+    width: 800px; height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid .w400h200{
+    width: 400px; height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid .w400h400{
+    width: 400px; height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid .w800h400{
+    width: 800px; height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.grid .w300h400{
+    width: 300px; height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.grid .grid-item img{
+    position: absolute
+}
+.grid .grid-item img.first{top:0;}
+.grid .grid-item img.second{top:400px;}
+
+.grid .grid-item-description{
+    width:350px;
+    height: 50px;
+    background-color: #000000;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.grid .grid-item-description span{
+    margin-top: 17px;
+    margin-left: 20px;
+    border-bottom: 1px solid #666666;
+    display: table;
+    cursor: pointer;
+}
+
+.location span{
+    display: table;
+    font-size: 11px;
+    margin: 17px auto;
+}
+
+.tier{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.tier .elfid{
+    background-color: #000000;
+    width: 60%; height: 200px;
+    float: left;
+    margin: 0px; padding: 0px;
+}
+
+.tier .elfid span{
+    margin: 20px;
+    font-size: 13.5px;
+    color: #ffffff;
+    display: table;
+    line-height: 20px;
+}
+
+.tier .sofistikitsch{
+    width: 40%; height: 200px;
+    float: right;
+    margin: 0px; padding: 0px;
+    background-image: url(../images/isotope/elfidestacerca.jpg);
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid .pajaro{
+    background-image: url(../images/isotope/pajaro.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+
+.bottomContainer{
+    width: 900;
+    height: 300px;
+    float: right;
+    clear: both;
+}
+
+.bottomLogo{
+    float: left;
+    /*background-color: #FF0000;*/
+    width: 100px; height: 100px;
+}
+
+.bottomMenu{
+    float: right;
+    background-color: #000000;
+    width: 760px; height: 260px;
+    padding: 20px;
+    font-size: 12.5px;
+}
+
+.rigth-bottom-container{
+    width:410px;
+}
+.left-bottom-container{
+    width: 175px;
+}
+.left-bottom-container,.rigth-bottom-container{
+    float: left;
+    color: white;
+}
+
+.rigth-bottom-container p{
+	margin: 0 0 10px 0;
+}
+
+.rigth-bottom-container p span{
+	text-decoration: underline;
+	color: #fdf40b !important;
+	cursor: pointer;
+}
+
+.left-bottom-container a{
+	text-decoration: none;
+	color: white;
+	display: table;
+	margin-bottom: 10px;
+}
+
+.icon-info p,.icon-info img{
+	float: left;
+}
+
+.email-info {
+    margin-top: 30px;
+    height: 60px;
+}
+
+.icon-info{
+	margin-top: 25px;
+}
+
+.creators-p{
+	margin: 14px 10px 0 0 !important;
+}
+
+.input-email-container input[type="email"] {
+    width: 320px;
+    height: 25px;
+    padding-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-email-container input[type="submit"] {
+    margin-left: -73px;
+    height: 25px;
+    width: 70px;
+    background: white;
+    color: #FF0000;
+    border: 0;
+    -webkit-appearance: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-bottom-container a:hover{
+    color: #FF0000;
+}
+
+.logo{
+    background-image: url(../images/svg/LogoMae.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.topBannerEntradas{
+    background-image: url(../images/entradas/entradas.jpg);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    width: 100%; height: 600px;
+}
+
+.topBannerTalleres{
+    background-image: url(../images/talleres/talleresbanner.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    width: 100%; height: 400px;
+}
+
+.topBannerAliados{
+    background-image: url(../images/aliados/aliadosbanner.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    width: 100%; height: 400px;
+}
+
+.topBannerAgenda{
+    background-image: url(../images/agenda/bannerconferencias.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    width: 100%; height: 400px;
+}
+
+.descripcionEntradas{
+    background-color: #f3f3f3;
+    width: 760px; height: 580px;
+    padding: 10px 20px;
+}
+
+.descripcionPaquetes{
+    background-color: #e6e6e6;
+    width: 760px; height: 780px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.top, .bottom{
+    width: 100%;
+    height: 600px;
+}
+
+.top .grid{
+    width: 400px;
+    height: 600px;
+    margin-top: 200px;
+}
+
+.bottom .grid{
+    width: 400px;
+    height: 600px;
+}
+
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+
+.grid .w400h400full{
+    width: 400px; height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pm{
+    font-size: 11px;
+    margin: 0px;
+}
+
+.pmtable{
+    font-size: 12px;
+}
+
+.ptitle{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.am{
+    font-size: 11px;
+    font-weight: 700;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.s20{
+    margin-bottom: 20px;
+}
+
+.descripcionEntradas table{
+    border-collapse: separate;
+}
+
+.fblock, .sblock{
+    width: 50%;
+}
+
+.descripcionPaquetes table{
+    border-collapse: collapse;
+    border-spacing: 1px 0px;
+}
+
+.descripcionPaquetes table .pmtable{
+    font-size: 11px;
+}
+
+.descripcionPaquetes table th{
+    border-bottom: 1px solid #bebebe;
+}
+
+.destinationServices{
+    background-image: url(../images/entradas/destination.png);
+    background-size: 132px 62px;
+    width: 132px; height: 62px;
+    margin-top: 80px;
+    margin-left: 77px;
+
+}
+
+body .newWindow{
+    background-image: url(../images/entradas/new_window.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 20px; height: 20px;
+    float: right;
+    margin: 0px !important;
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    border-bottom: none !important;
+}
+
+
+@font-face {
+  font-family: 'VAGRoundedStdLight';
+  src: url('../fonts/VAGRoundedStd-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'rasmusbold';
+    src: url('fonts/Rasmus-Bold-webfont.eot');
+    src: url('fonts/Rasmus-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Rasmus-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Rasmus-Bold-webfont.woff') format('woff'),
+         url('fonts/Rasmus-Bold-webfont.ttf') format('truetype'),
+         url('fonts/Rasmus-Bold-webfont.svg#rasmusbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.rasmusbold{
+	font-family: 'rasmusbold';
+}
+
+.entradasHomeTextContainer {
+	position: absolute;
+	z-index: 9999;
+	color: white;
+	right: 17%;
+	width: 62%;
+	height: 185px;
+	margin-top: 23%;
+}
+
+.titleContainer {
+    font-family: 'Crimson Text', serif;
+    font-size: 5em;
+}
+
+.dateContainer{
+	float: right;
+}
+
+.dateText{
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+.entradasHomeTextContainer p {
+    margin: 0;
+}
+
+.btnEntradasContainer {
+    width: 140px;
+    height: 25px;
+    padding-top: 5px;
+    background-color: #FF0000;
+    margin-top: 10px;
+}
+
+.btnEntradasContainer a {
+    text-decoration: none;
+    color: white;
+    margin: 0px auto;
+    display: table;
+}
+
+.talleresAmarillo{
+    background-image: url(../images/talleres/mono.jpg);
+    background-size: 800px 760px;
+    background-repeat: no-repeat;
+    width: 760px; height: 720px;
+    padding: 20px;
+		float: left;
+}
+
+.talleres2dias{
+    background-color: #262626;
+    width: 360px; height: 720px;
+    padding: 20px;
+    color: #FFF !important;
+		float: right;
+}
+
+.block400{
+    width: 360px; height: 360px;
+    padding: 20px;
+}
+
+.block800400{
+    width: 760px; height: 360px;
+    padding: 20px;
+}
+
+.block800400nopadd{
+    width: 800px; height: 400px;
+}
+
+.block800800nopadd{
+    width: 800px; height: 800px;
+}
+
+.block400nopadd{
+    width: 400px; height: 400px;
+}
+
+.grey{
+    background-color: #e6e6e6;
+}
+
+.black{
+    background-color: black;
+}
+
+.whiteText{
+    color: #FFF !important;
+}
+
+.whiteBorder{
+    border-top: 1px solid #FFF !important;
+}
+
+.talleresBloque{
+    float: left;
+    width: 355px;
+    margin-top: 40px;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+}
+
+.talleresBloque .title{
+    font-size: 15px;
+}
+
+.tallerDesc{
+    margin-top: 20px;
+    position: relative;
+}
+
+.tallerDesc .title{
+    font-size: 13px;
+}
+
+.tallerDesc .info{
+    font-weight: 100;
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+}
+
+.tallerDesc .link{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 2px;
+    color: rgb(132, 0, 255);
+}
+
+.cincmargin{
+   margin-right:  50px;
+}
+
+.treintmargin{
+   margin-top:  35px !important;
+}
+
+.veintmargin{
+    display: block;
+    margin-top:  20px !important;
+}
+
+.nomargin{
+    margin:  0px !important;
+}
+
+.cuatrofullh{
+    min-height: 278px !important;
+}
+
+.clear{
+    clear: both;
+}
+
+.bold{
+    font-weight: bold !important;
+}
+
+.light{
+    font-weight: 100;
+}
+
+.bigTitle{
+    font-size: 20px;
+}
+
+.bottomLink{
+    position: absolute;
+    bottom: 0px;
+}
+
+.darkGrey{
+    background-color: #242424;
+}
+
+.noborder{
+    border: none !important;
+}
+
+.blackgb{
+    background-color: black;
+}
+
+.grid .w200h200{
+    width: 198px; height: 198px;
+    overflow: hidden;
+    position: relative;
+}
+
+.borderTopRight{
+    border-top: 1px solid black;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.borderTopRightLeft{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.borderTopRightLeftMiddle{
+    border-top: 1px solid white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.borderRightMiddle{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.borderTopRightMiddle{
+    border-top: 1px solid black;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.noBorder{
+    border: 1px solid white;
+}
+
+.aliados .grid-item {
+    overflow: hidden;
+}
+
+.aliados .grid-item span{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
+.coproducido{
+    float: right;
+    width: 350px;
+    color: white;
+    font-size: 13px;
+    height: 400px;
+    padding-top: 45px;
+    text-align: center;
+		position: relative;
+}
+
+.pinklight{
+    background-color: #d54585;
+}
+
+.pinkmedium{
+    background-color: #cb1667;
+}
+
+.pinkdark{
+    background-color: #8e0f48;
+}
+
+.agTitle{
+    font-size: 14px;
+}
+.smallText{
+    font-size: 12px;
+}
+
+.agMarginB{
+    margin-bottom: 15px;
+}
+
+.agMarginT{
+    margin-top: 17px;
+}
+
+.bottomDesc{
+    position: absolute;
+    bottom: 20px;
+}
+
+.agMarginL{
+    margin-left: 15px;
+}
+
+.agMarginR{
+    margin-right: 15px;
+    width: 53px;
+    text-align: right;
+}
+
+.conferencias .bigTitle{
+    font-size: 30px;
+}
+
+.underline{
+    border-bottom: 1px solid #e081a8;
+}
+
+.prelative{
+    position: relative;
+}
+
+.agEvento{
+    display: table;
+}
+
+.yellowText{
+    font-size: 14px;
+    color: #fff22d !important;
+}
+
+.pinklight a, .pinkmedium a, .pinkdark a{
+    color: white;
+    text-decoration: none;
+}
+
+.bloquenochesfid{
+    background-color: #2a498b;
+    padding: 25px;
+    width: 350px;
+    color: white;
+}
+
+.bloquenochesfid .titleb, .bloqueConcursos .titleb{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.bloquenochesfid .pink{
+    color: #bf1f57
+}
+
+.fiestaredbull{
+    background-image: url(../images/noches/fiestaredbull.jpg);
+    background-size: 800px 1200px;
+    background-repeat: no-repeat;
+    width: 800px; height: 1200px;
+}
+
+.mcolor{
+    background-color: #712f84;
+}
+
+.ycolor{
+    background-color: #9c951f
+}
+
+.snack{
+    background-image: url(../images/concursos/c-snackdesign.jpg);
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+    width: 800px; height: 400px;
+}
+
+.pimp{
+    background-image: url(../images/concursos/c-pimpyourdate.jpg);
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+    width: 800px; height: 400px;
+}
+
+.yellowtext{
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+
+/*concurso #2*/
+.bolsasAuto{
+	background-image: url(../images/concursos/concurso01.gif);
+	background-size: 800px 800px;
+	background-repeat: no-repeat;
+	width: 800px; height: 800px;
+}
+
+.bolsasAutoSingle{
+	background-image: url(../images/concursos/concurso02.gif);
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+	width: 360px; height: 360px;
+}
+
+.zosenM{
+	background-image: url(../images/concursos/zosenmina.jpg);
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+	width: 360px; height: 360px;
+}
+
+.concursoRed{
+	background-color: #cf422a;
+}
+
+.concursoGrey{
+	background-color: #f3f3f3;
+}
+
+.topConcursoAuto{
+	background-image: url(../images/concursos/concurso03.jpg);
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+	width: 100%; height: 400px;
+}
+
+.block8001200nopadd{
+    width: 780px; height: 1180px;
+}
+
+.textAdjustmentsConcurso{
+	font-size: 13px;
+	padding: 10px;
+}
+
+.concursoa{
+	text-decoration: none;
+	color: black;
+}
