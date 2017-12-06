@@ -33,8 +33,7 @@
         <span u="arrowright" class="arrowright"></span>
     </div>
     <div class="tier">
-        <div class="elfid"><span>El FID está cerca. El 10 de marzo del 2017 marca el inicio del FID Siete. 2200 mentes se acercarán al templo de la creatividad; llegarán en parejas, solos, en tríos, hasta en grupos. Muchos nos visitarán de más de 14 países. Dentro de la Antigua Aduana multiplicarán las ideas, harán comunidad y convertirán a San José, por sétimo año consecutivo, en la capital del diseño y la creación.
-          <br /> <br />Espacios FID, Museo de Arte y Diseño Contemporáneo, Paseo La Luz, El Patio de La Aduana, San José de noche, San José viva. El domingo 12 volverán a casa pero no serán los mismos. Bienvenido sea el FID.</span></div>
+        <div class="elfid"><span>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</span></div>
         <div class="sofistikitsch"></div>
     </div>
     <div class="grid">
