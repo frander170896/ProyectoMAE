@@ -41,21 +41,21 @@
         <div class="grid-item w400h400"></div>
 
         <div class="grid-item w800h400">
-            <a href="lightboxhtml/gemma.html" class="ajax-popup-link"><div class="grid-item-description"><span>GEMMA O'BRIEN. LETTERING. AUSTRALIA</span></div>
+            <a href="lightboxhtml/gemma.html" class="ajax-popup-link"><div class="grid-item-description"><span>Lorem Ipsum</span></div>
             <img class="first" src="images/isotope/invitados/gemma01.jpg" width="100%" height="400px"/>
             <img class="second" src="images/isotope/invitados/gemma02.jpg" width="100%" height="400px"/>
                 </a>
         </div>
 
         <div class="grid-item w400h400">
-            <a href="lightboxhtml/snask.html" class="ajax-popup-link"><div class="grid-item-description"><span>SNASK. DISEÑO GRÁFICO. SUECIA</span></div>
+            <a href="lightboxhtml/snask.html" class="ajax-popup-link"><div class="grid-item-description"><span>Lorem Ipsum</span></div>
             <img class="first" src="images/isotope/invitados/snask01.jpg" width="100%" height="400px"/>
             <img class="second" src="images/isotope/invitados/snask02.jpg" width="100%" height="400px"/>
                 </a>
         </div>
 
         <div class="grid-item w400h400">
-            <a href="lightboxhtml/rebecca.html" class="ajax-popup-link"><div class="grid-item-description"><span>REBECCA STAMBANIS. PUBLICIDAD. AUSTRALIA</span></div>
+            <a href="lightboxhtml/rebecca.html" class="ajax-popup-link"><div class="grid-item-description"><span>Lorem Ipsum</span></div>
             <img class="first" src="images/isotope/invitados/rebecca01.jpg" width="100%" height="400px"/>
             <img class="second" src="images/isotope/invitados/rebecca02.jpg" width="100%" height="400px"/>
                 </a>
@@ -72,14 +72,14 @@
                 </a>
         </div> -->
         <div class="grid-item w400h400">
-           <a href="lightboxhtml/alejandro.html" class="ajax-popup-link"><div class="grid-item-description"><span>ALEJANDRO MAGALLANES. DISEÑO GRAFICO. MEXICO</span></div>
+           <a href="lightboxhtml/alejandro.html" class="ajax-popup-link"><div class="grid-item-description"><span>Lorem Ipsum</span></div>
            <img class="first" src="images/isotope/invitados/alejandro01.jpg" width="100%" height="400px"/>
            <img class="second" src="images/isotope/invitados/alejandro02.jpg" width="100%" height="400px"/>
                </a>
        </div>
 
         <div class="grid-item w400h400">
-            <a href="lightboxhtml/amina.html" class="ajax-popup-link"><div class="grid-item-description"><span>AMINA HOROZIC. PRODUCTO. BOSNIA Y HERZEGOVINA</span></div>
+            <a href="lightboxhtml/amina.html" class="ajax-popup-link"><div class="grid-item-description"><span>Lorem Ipsum</span></div>
             <img class="first" src="images/isotope/invitados/amina01.jpg" width="100%" height="400px"/>
             <img class="second" src="images/isotope/invitados/amina02.jpg" width="100%" height="400px"/>
                 </a>
